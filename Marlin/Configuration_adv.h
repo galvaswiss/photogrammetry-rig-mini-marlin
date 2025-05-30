@@ -32,6 +32,12 @@
  */
 #define CONFIGURATION_ADV_H_VERSION 02010205
 
+//#define X_DRIVER_TYPE  A4988
+//#define Y_DRIVER_TYPE  A4988
+#define Z_DRIVER_TYPE  TMC2209
+#define E0_DRIVER_TYPE TMC2209
+
+
 // @section develop
 
 /**
